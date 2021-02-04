@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+.navbar{
+    background-color: rgb(240, 237, 245);
+}
+.navbar li a{
+    color: rgb(42, 46, 6)!important;
+    font-size: 1.4rem;
+    padding: 0 2rem!important;
+}
+.navbar li a:hover{
+    color: chartreuse!important;
+}
+.carousel-item .btn-custom{
+    background-color: bisque;
+}
+.carousel-item .btn-custom:hover{
+    background-color: chartreuse;
+    transition: 0.9s ease;
+}
+.carousel-item .btn-custom a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 2rem;
+}
+.about-text p{
+    font-size: 2rem;
+}
+.brand-text p{
+    font-size: 2.6rem;
+    font-weight: 100;
+}
+.brand-text h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+.owl-carousel .item img{
+    width: 200px;
+    height: 90px;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+.news-text p{
+    font-size: 2.6rem;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 4rem;
+}
+.news-text h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+    color: #65BBDF;
+}
+.selling-text p{
+    font-size: 2.6rem;
+    font-weight: 100;
+    color: #000;
+    padding-top: 4rem;
+    text-align: center;
+}
+.selling-text h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+    color: #20334E;
+    text-align: center;
+}
+.deal-text{
+    margin-top: 4rem;
+}
+.login-box{
+    background-color: coral;
+    padding: 2rem;
+    height: 150px;
+    
+}
+.social-icone ul li{
+    display: inline;
+    padding: 1rem;
+}
+.social-icone ul li i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.social-icone ul{
+    text-align: center;
+}
